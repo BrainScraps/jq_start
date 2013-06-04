@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"> </script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+		<title>The Bank of WDI!</title>
+	</head>
+
+	<body>
+	
+		<div class="container">
+			<div class="masthead">
+				<div class="row-fluid">
+				<div class="span6">
+					<h3 class="muted"> Bank of WDI </h3>
+					</div>
+					<div class="span6">
+						<p class="pull-right"> Minimalist banking you can trust </p> 
+					</div>
+
+				</div>
+			</div>
+			<hr>
+			<div class ="row-fluid">
+			<div id="checking_div" class="span6">
+				<form>
+				  <fieldset>
+				    <legend>Checking Account <span style="display:none;" id="chk_zero"> $0 Bal :(</span></legend>
+				    	<h2> $<span id="chk_bal">3000</span></h2>
+				    <label>Label name</label>
+				    <input id="chk_box" type="text" placeholder="Amount">
+				    <br>
+				    
+				    <button id="chk_wth" class="btn btn-info">Withdraw</button> <button id="chk_dep" class="btn btn-success">Deposit</button>
+				  </fieldset>
+				</form>
+
+			</div> 
+			<div class="span6" id="savings_div">
+				<form>
+				  <fieldset>
+				    <legend>Savings Account <span style="display:none;" id="sav_zero"> $0 Bal :(</span></legend>
+				    	<h2> $<span id="sav_bal">12000</span></h2>
+				    <label>Label name</label>
+				    <input id="sav_box" type="text" placeholder="Amount">
+				    <br>
+				    
+				    <button class="btn btn-info" id="sav_wth">Withdraw</button> <button id="sav_dep"class="btn btn-success">Deposit</button>
+				  </fieldset>
+				</form>
+			</div>
+		</div>
+		<hr>
+		<div class="footer row-fluid">
+			<div class=" muted center span12"> Made by me, with the help of <a href="http://twitter.github.com/"> Bootstrap by Twitter</a> &copy; 2013
+			</div>
+		</div>
+	</body>
+</html>
