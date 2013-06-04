@@ -521,6 +521,8 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  background-color: #ffffff;
+  padding: 5px;
 }
 .container:before,
 .container:after {
@@ -6318,5 +6320,9 @@ button.close {
 background: #E83A3A;
 border-radius: 4px;
 padding: 2px;
+}
+
+.patterned{
+  background: #F0F0F0 url('textured_paper.png') fixed center;
 }
 

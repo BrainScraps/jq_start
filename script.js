@@ -10,6 +10,8 @@ $(document).ready(function(){
   				if (sav_bal > requested_amt){
 
   					$("#sav_bal").text(sav_bal - requested_amt);
+            alert("You have used overdraft protection to withdraw $" + requested_amt + " from your SAVINGS account.");
+
   					$("#chk_box").val("");
   				} else {
   					broke_sucka();
